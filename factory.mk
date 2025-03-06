@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-FACTORY_PATH := device/khadas/kvim1s/factory
+FACTORY_PATH := device/amlogic/vontarx4/factory
 
 PRODUCT_UPGRADE_OUT := $(PRODUCT_OUT)/upgrade
 PACKAGE_CONFIG_FILE := $(PRODUCT_UPGRADE_OUT)/image.cfg
@@ -44,8 +44,8 @@ $(INSTALLED_AML_UPGRADE_PACKAGE_TARGET): $(addprefix $(PRODUCT_OUT)/,$(NEEDED_IM
 	$(hide) $(call aml-symlink-file, $(FACTORY_PATH)/bootloader.img)
 	$(hide) $(call aml-symlink-file, $(FACTORY_PATH)/odm_ext_a.PARTITION)
 	$(hide) $(call aml-symlink-file, $(PRODUCT_OUT)/oem_a.PARTITION)
-#else ifneq ("$(wildcard vendor/khadas/kvim1s/radio/bootloader.img)","")
-#	$(hide) $(call aml-symlink-file, vendor/khadas/kvim1s/radio/bootloader.img, u-boot.bin)
+#else ifneq ("$(wildcard vendor/amlogic/vontarx4/radio/bootloader.img)","")
+#	$(hide) $(call aml-symlink-file, vendor/amlogic/vontarx4/radio/bootloader.img, u-boot.bin)
 #else
 #	$(error "no u-boot.bin found in $(FACTORY_PATH)")
 #endif

@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_kvim1s.mk
+    $(LOCAL_DIR)/lineage_vontarx4.mk

@@ -14,9 +14,9 @@ fi
 
 set -e
 
-export DEVICE=kvim1s
+export DEVICE=vontarx4
 export DEVICE_COMMON=ne-common
-export VENDOR=khadas
+export VENDOR=amlogic
 export VENDOR_COMMON=amlogic
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"

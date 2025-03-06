@@ -4,23 +4,23 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/khadas/kvim1s
+DEVICE_PATH := device/amlogic/vontarx4
 
 ## Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
-BOARD_CUSTOM_BT_CONFIG := $(DEVICE_PATH)/bluetooth/vnd_kvim1s.txt
+BOARD_CUSTOM_BT_CONFIG := $(DEVICE_PATH)/bluetooth/vnd_vontarx4.txt
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 ## Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := kvim1s
+TARGET_BOOTLOADER_BOARD_NAME := vontarx4
 
 ## DTB
-TARGET_DTB_NAME := kvim1s
+TARGET_DTB_NAME := vontarx4
 TARGET_DTBO_NAME := android_overlay_dt
 
 ## Kernel
-TARGET_KERNEL_CONFIG := lineage_kvim1s_defconfig
+TARGET_KERNEL_CONFIG := lineage_vontarx4_defconfig
 
 ## Kernel modules
 TARGET_KERNEL_EXT_MODULES := \
@@ -46,4 +46,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 include device/amlogic/ne-common/BoardConfigCommon.mk
 
 ## Include the proprietary BoardConfig makefile
-include vendor/khadas/kvim1s/BoardConfigVendor.mk
+include vendor/amlogic/vontarx4/BoardConfigVendor.mk

@@ -20,11 +20,11 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_BRAND := Khadas
-PRODUCT_DEVICE := kvim1s
+PRODUCT_DEVICE := vontarx4
 PRODUCT_GMS_CLIENTID_BASE := android-askey-tv
-PRODUCT_MANUFACTURER := khadas
+PRODUCT_MANUFACTURER := amlogic
 PRODUCT_MODEL := VIM1S
-PRODUCT_NAME := lineage_kvim1s
+PRODUCT_NAME := lineage_vontarx4
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=adt3 \

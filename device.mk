@@ -8,7 +8,7 @@ TARGET_AMLOGIC_SOC := s4
 
 ## Bluetooth
 PRODUCT_PACKAGES += \
-    Kvim1sBluetoothOverlay \
+    Vontarx4BluetoothOverlay \
     libbt-vendor
 
 ## Factory
@@ -26,4 +26,4 @@ include kernel/amlogic/kernel-modules/dhd-driver/firmware/wifi/wifi.mk
 $(call inherit-product, device/amlogic/ne-common/ne.mk)
 
 ## Inherit from the proprietary files makefile
-$(call inherit-product, vendor/khadas/kvim1s/kvim1s-vendor.mk)
+$(call inherit-product, vendor/amlogic/vontarx4/vontarx4-vendor.mk)
