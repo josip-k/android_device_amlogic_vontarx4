@@ -16,7 +16,7 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 TARGET_BOOTLOADER_BOARD_NAME := vontarx4
 
 ## DTB
-TARGET_DTB_NAME := vontarx4
+TARGET_DTB_NAME := sc2_s905x4_ah212_vontarx4
 TARGET_DTBO_NAME := android_overlay_dt
 
 ## Kernel
