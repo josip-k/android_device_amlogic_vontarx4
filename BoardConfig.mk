@@ -24,7 +24,7 @@ TARGET_KERNEL_CONFIG := lineage_vontarx4_defconfig
 
 ## Kernel modules
 TARGET_KERNEL_EXT_MODULES := \
-    dhd-driver/bcmdhd.101.10.361.x
+    dhd-driver/bcmdhd.100.10.545.x
 
 ## Partitions
 BOARD_SUPER_PARTITION_SIZE := 2084569088
@@ -37,8 +37,7 @@ BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_bcmdhd
 BOARD_WLAN_DEVICE := bcmdhd
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
 BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_bcmdhd
-WIFI_DRIVER_FW_PATH_AP := "/vendor/etc/wifi/buildin/fw_bcm4356a2_ag_apsta.bin"
-WIFI_DRIVER_FW_PATH_STA := "/vendor/etc/wifi/buildin/fw_bcm4356a2_ag.bin"
+WIFI_DRIVER_FW_PATH_STA := "/vendor/firmware/wifi/fw_bcm4339a0_ag.bin"
 WIFI_DRIVER_FW_PATH_PARAM := "/sys/module/dhd/parameters/firmware_path"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 

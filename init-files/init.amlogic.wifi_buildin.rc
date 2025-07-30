@@ -1,2 +1,2 @@
 on boot
-    insmod /vendor/lib/modules/dhd.ko firmware_path=/wifi/ nvram_path=/wifi/
+    insmod /vendor/lib/modules/dhd.ko firmware_path=/vendor/firmware/wifi/ nvram_path=/vendor/firmware/wifi/
