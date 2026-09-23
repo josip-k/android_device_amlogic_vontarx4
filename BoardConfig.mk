@@ -17,8 +17,8 @@ TARGET_DTBO_NAME := android_overlay_dt
 BOARD_KERNEL_SEPARATED_DTBO := true
 
 ## Kernel
-TARGET_KERNEL_PLATFORM_TARGET := ohm
-TARGET_KERNEL_SOURCE := vendor/amlogic/ohm-build
+TARGET_KERNEL_PLATFORM_TARGET := vontarx4
+TARGET_KERNEL_SOURCE := vendor/amlogic/vontar-build
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/vendor_dlkm.modules.load))
 BOOT_KERNEL_MODULES := $(strip $(shell cat $(DEVICE_PATH)/vendor_boot.modules.load))
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)

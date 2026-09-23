@@ -1,14 +1,14 @@
-[  
+[
   {
     "repository": "android_device_amlogic_ne-common",
     "target_path": "device/amlogic/ne-common"
   },
   {
-    "repository": "android_kernel_amlogic_ohm-build",
-    "target_path": "kernel/platform/kernel-5.15/vendor/amlogic/ohm-build"
+    "repository": "android_hardware_amlogic_u-boot-sc2",
+    "target_path": "hardware/amlogic/u-boot"
   },
   {
-    "repository": "android_kernel_amlogic_qca6174-driver",
-    "target_path": "kernel/platform/kernel-5.15/vendor/amlogic/qca6174-driver"
+    "repository": "android_kernel_amlogic_vontar-build",
+    "target_path": "kernel/platform/kernel-5.15/vendor/amlogic/vontar-build"
   }
 ]
