@@ -1,14 +1,5 @@
 ## All blobs from this list, unless pinned and noted as otherwise,
-## are from onn/jarvis/SNA:14/URO4.260304.011.B1/15051976:user/release-keys.
-
-## Bluetooth
-vendor/etc/bluetooth/qca6174/ar3k/nvm_tlv_3.2.bin
-vendor/etc/bluetooth/qca6174/ar3k/rampatch_tlv_3.2.tlv
-vendor/etc/bluetooth/qca9377/ar3k/nvm_tlv_tf_1.1.bin
-vendor/etc/bluetooth/qca9377/ar3k/rampatch_tlv_tf_1.1.tlv
-
-## Bluetooth HAL - from Amlogic/ohm/ohm:14/UKG3.250513.001/phh06150144:userdebug/test-keys
-vendor/lib/libbt-vendor_qca.so:vendor/lib/libbt-vendor.so;FIX_SONAME|207ecd1471e31f53d529ee1ee98f94546c708366|2696d38036566131469c35137ffd982f785deea6
+## are from Amlogic/ah218/ah218:11/RD2A.211001.002/user05102352:user/release-keys.
 
 ## Display
 vendor/etc/mesondisplay.cfg
@@ -16,16 +7,15 @@ vendor/etc/mesondisplay.cfg:recovery/root/system/etc/mesondisplay.cfg
 
 ## DRM - from Amlogic/ohm/ohm:14/UKG3.250513.001/phh06150144:userdebug/test-keys
 vendor/lib/libamavutils.so|dfcfbda879678fb1424b0acb8bdfcbd6f2d50f19
-vendor/lib/liboemcrypto.so|41a0b75c932a1f9d4b7cffcc7372caaa4a20dc30
 vendor/lib/libsecmem.so|4eda29625df77cf8033700e84a14d14e4a21b8c7
 
 ## Firmware
 vendor/lib/firmware/aucpu_fw.bin
 vendor/lib/firmware/video/video_ucode.bin
 
-## Netflix
-product/etc/sysconfig/netflix.xml
-vendor/etc/permissions/droidlogic.software.netflix.xml
+## Netflix - from onn/jarvis/SNA:14/URO4.260304.011.B1/15051976:user/release-keys
+product/etc/sysconfig/netflix.xml|a63698bfa31a9261eb329d0fbbc975faaff37b68
+vendor/etc/permissions/droidlogic.software.netflix.xml|f9798f7873372120d392377a55a5fe61279a98a7
 
 ## ODM
 odm/lib/libHwAudio_dcvdec.so
@@ -36,32 +26,7 @@ vendor/bin/hw/android.hardware.oemlock@1.0-service.droidlogic
 vendor/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc
 vendor/etc/vintf/manifest/android.hardware.oemlock@1.0-service.droidlogic.xml
 
-## TEE
-vendor/bin/hw/android.hardware.security.keymint-service.amlogic
-vendor/etc/init/android.hardware.security.keymint-service.amlogic.rc
-vendor/etc/permissions/android.hardware.hardware_keystore.amlogic.xml
-vendor/etc/vintf/manifest/android.hardware.security.keymint-service-no-rkp.amlogic.xml
-vendor/lib/lib_android_keymaster_keymint_utils.so:vendor/lib/lib_android_keymaster_akeymint_utils.so;FIX_SONAME
-vendor/lib/libcppcose_rkp.so:vendor/lib/libacppcose_rkp.so;FIX_SONAME
-vendor/lib/libkeymint.so:vendor/lib/libakeymint.so;FIX_SONAME
-vendor/lib/libkeymint_remote_prov_support.so:vendor/lib/libakeymint_remote_prov_support.so;FIX_SONAME
-
-## TEE Applets - from Amlogic/ohm/ohm:14/UKG3.250513.001/phh06150144:userdebug/test-keys
-vendor/lib/teetz/2088528d-102a-4716-b940-23fd9be04adf.ta|42d46e2c2a5657e746d571bf0575aeb7791473d8
-vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta|189486a96a741b03a93358fb02f82059c41fb6b5
-vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta|357de7c35118f6ab46350f399f1a662c82987efd
-vendor/lib/teetz/6c67ce8f-95c1-4826-b62e-1a857a1ced3d.ta|d230059956fbd4ea6a19ef97f1d2590c1f38f84e
-vendor/lib/teetz/8efb1e1c-37e5-4326-a5d6-8c33726c7d57.ta|1f9081e9791bd5989f41282e66b3a1c90627d440
-vendor/lib/teetz/d83c3c4a-9e8d-4e4e-ad30-9d40e137f689.ta|8b2a892211f127b0922fa132edc73193b5999724
-vendor/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c51b.ta|c470f3c636cef4a799dd6d215c2333f0de3507d2
-vendor/lib/teetz/e92a43ab-b4c8-4450-aa12-b1516259613b.ta|cdc48898584a8f9da9f7385e9209032b38392ace
-vendor/lib/teetz/ff2a4bea-ef6d-11e6-89cc-d4ae52a7b3b3.ta|d6b7b48de86f6ff0d4e74f92fdf52736db0831a5
-
-## Wi-Fi - from Amlogic/ohm/ohm:14/UKG3.250513.001/phh06150144:userdebug/test-keys
-vendor/lib/firmware/athwlan.bin|96bd7fa7ba7d75576a1804ca1f124f1984dc118d
-vendor/lib/firmware/bdwlan30.bin|9894138fc23d68c0676d89058a2240db80cdb095
-vendor/lib/firmware/otp30.bin|e50f93a0eb3a4ad3cbead186eab74fd614674ed2
-vendor/lib/firmware/qwlan30.bin|8f66d07a67249744030c1b3726faaf634e2f1a54
-vendor/lib/firmware/utf30.bin|4d7b04ad91ce695f568eb25bf3522eb304c57e05
-vendor/lib/firmware/wlan/cfg.dat|3f46865ac1ed9f1d064183640fc9963fdf561d20
-vendor/lib/firmware/wlan/qcom_cfg.ini|bfea5f255e388b8ee193278bc0050c113c791bbe
+## TEE Applets
+vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta
+vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta
+vendor/lib/teetz/e92a43ab-b4c8-4450-aa12-b1516259613b.ta
