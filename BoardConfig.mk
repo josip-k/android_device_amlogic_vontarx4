@@ -50,5 +50,7 @@ include device/amlogic/ne-common/BoardConfigCommon.mk
 ## SEPolicy
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/system_ext/private
 
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.amlogic
+
 ## Include the proprietary BoardConfig makefile
 include vendor/amlogic/vontarx4/BoardConfigVendor.mk
