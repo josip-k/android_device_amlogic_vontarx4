@@ -16,7 +16,8 @@ $(call soong_config_set,brcm_libbt,custom_bt_config,//$(LOCAL_PATH):vnd_vontarx4
 
 ## Init
 PRODUCT_PACKAGES += \
-    init.amlogic.wifi_buildin.rc
+    init.amlogic.wifi_buildin.rc \
+    init.vontarx4.tee.rc
 
 ## Keylayout (IR)
 PRODUCT_COPY_FILES += \

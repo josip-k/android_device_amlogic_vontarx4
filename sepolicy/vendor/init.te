@@ -1,0 +1,1 @@
+allow init sysfs_tee_info:file w_file_perms;

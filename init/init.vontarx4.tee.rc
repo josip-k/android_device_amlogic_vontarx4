@@ -1,0 +1,11 @@
+##
+## SPDX-FileCopyrightText: The LineageOS Project
+## SPDX-License-Identifier: Apache-2.0
+##
+
+# OP-TEE refuses to load TAs from /vendor/lib/teetz until this is set.
+# ne-common only writes it on non-A/B, leaving A/B to the boot HAL's
+# markBootSuccessful(), which never runs here. Set it before early-fs
+# so vendor.tee_preload_fw can load the video firmware.
+on init
+    write /sys/class/tee_info/sys_boot_complete 1

@@ -9,3 +9,10 @@ prebuilt_etc {
     sub_dir: "init/hw",
     soc_specific: true,
 }
+
+prebuilt_etc {
+    name: "init.vontarx4.tee.rc",
+    src: "init.vontarx4.tee.rc",
+    sub_dir: "init",
+    soc_specific: true,
+}
