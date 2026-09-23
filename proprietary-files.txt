@@ -14,7 +14,9 @@ vendor/lib/libsecmem.so|4eda29625df77cf8033700e84a14d14e4a21b8c7
 
 ## Firmware
 vendor/lib/firmware/aucpu_fw.bin
-vendor/lib/firmware/video/video_ucode.bin
+
+## Firmware (Video) - from onn/jarvis/SNA:14/URO4.260304.011.B1/15051976:user/release-keys
+vendor/lib/firmware/video/video_ucode.bin|bef106affdf7dbc459e2938eacf1b786cae03b44
 
 ## Netflix - from onn/jarvis/SNA:14/URO4.260304.011.B1/15051976:user/release-keys
 product/etc/sysconfig/netflix.xml|a63698bfa31a9261eb329d0fbbc975faaff37b68
@@ -31,8 +33,10 @@ vendor/etc/vintf/manifest/android.hardware.oemlock@1.0-service.droidlogic.xml
 
 ## TEE Applets
 vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta
-vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta
 vendor/lib/teetz/e92a43ab-b4c8-4450-aa12-b1516259613b.ta
+
+## TEE Applets (Video) - from Amlogic/ohm/ohm:14/UKG3.250513.001/phh06150144:userdebug/test-keys
+vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta|357de7c35118f6ab46350f399f1a662c82987efd
 
 ## Wi-Fi
 vendor/etc/wifi/6335/fw_bcm4339a0_ag.bin:vendor/firmware/wifi/fw_bcm4339a0_ag.bin
