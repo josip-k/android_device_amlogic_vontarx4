@@ -1,3 +1,3 @@
-# Firmware - from Amlogic/ohm/ohm:14/UKG3.250513.001/phh06150144:userdebug/test-keys - (factory image).
+# Firmware - from pack-bootloader.sh. BL33 is sc2_vontarx4; BBST/BL2E/BL2X from stock FIP; BL31/BL32 ATV14.
 
-bootloader.img;AB|6bcaf7bab5aab0335fe2ed64df56d7028ee22956
+bootloader.img|c8407315fb29eb55fe13a472d9e9af367b5ccf19
