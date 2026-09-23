@@ -34,13 +34,6 @@ TARGET_AMLOGIC_SOC := sc2
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-## Wi-Fi
-TARGET_HAVE_WIFIHAL := false
-
-PRODUCT_SOONG_NAMESPACES += \
-    hardware/qcom-caf/wlan \
-    hardware/qcom-caf/wlan/qcwcn
-
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/ne-common/ne.mk)
 

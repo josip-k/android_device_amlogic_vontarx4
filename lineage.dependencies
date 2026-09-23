@@ -10,5 +10,9 @@
   {
     "repository": "android_kernel_amlogic_vontar-build",
     "target_path": "kernel/platform/kernel-5.15/vendor/amlogic/vontar-build"
+  },
+  {
+    "repository": "android_kernel_amlogic_dhd-driver",
+    "target_path": "kernel/platform/kernel-5.15/vendor/amlogic/dhd-driver"
   }
 ]

@@ -4,4 +4,7 @@
 ##
 
 on boot
-    insmod /vendor/lib/modules/wlan_6174.ko country_code=CN
+    write /sys/module/firmware_class/parameters/path /vendor/firmware
+    insmod /vendor/lib/modules/dhd.ko \
+        firmware_path=/wifi/fw_bcm4339a0_ag.bin \
+        nvram_path=/wifi/nvram_ap6335.txt

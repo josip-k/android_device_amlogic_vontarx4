@@ -21,4 +21,4 @@ ro.vendor.nrdp.validation=ninja_10
 ro.soc.model=AMLS905X4
 
 ## Wi-Fi
-vendor.wifi_name=qca
+vendor.wifi_name=bcm
