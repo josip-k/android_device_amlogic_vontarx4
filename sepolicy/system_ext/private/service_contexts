@@ -1,0 +1,4 @@
+# Same HAL process already adds IGatekeeper/default as this type.
+# Mapping /gatekeeper to hal_sharedsecret_service hits KeyMint's exclusive
+# add_service neverallow in system/sepolicy/vendor/hal_keymint_default.te.
+android.hardware.security.sharedsecret.ISharedSecret/gatekeeper u:object_r:hal_gatekeeper_service:s0

@@ -39,3 +39,11 @@ $(call inherit-product, device/amlogic/ne-common/ne.mk)
 
 ## Inherit from the proprietary files makefile
 $(call inherit-product, vendor/amlogic/vontarx4/vontarx4-vendor.mk)
+
+# AOSP in-process KeyMint.
+PRODUCT_PACKAGES += \
+    android.hardware.security.keymint-service
+
+# AIDL software gatekeeper (Amlogic GK + HIDL software GK are blanked in factory.mk).
+PRODUCT_PACKAGES += \
+    com.android.hardware.gatekeeper.nonsecure

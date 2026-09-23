@@ -47,5 +47,8 @@ WIFI_DRIVER_FW_PATH_PARAM := "/sys/module/dhd/parameters/firmware_path"
 ## Include the common tree BoardConfig makefile
 include device/amlogic/ne-common/BoardConfigCommon.mk
 
+## SEPolicy
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/system_ext/private
+
 ## Include the proprietary BoardConfig makefile
 include vendor/amlogic/vontarx4/BoardConfigVendor.mk
