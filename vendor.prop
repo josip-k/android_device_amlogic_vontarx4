@@ -3,6 +3,7 @@ bluetooth.device.default_name=VontarX4
 bluetooth.profile.hfp.ag.enabled=false
 bluetooth.profile.opp.enabled=false
 bluetooth.profile.pbap.server.enabled=false
+persist.vendor.libbt_vendor=libbt-vendor.so
 
 ## FRP
 ro.frp.pst=/dev/block/by-name/frp

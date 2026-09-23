@@ -5,7 +5,14 @@
 
 ## Bluetooth
 PRODUCT_PACKAGES += \
-    BluetoothOverlayTarget
+    BluetoothOverlayTarget \
+    libbt-vendor
+
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/broadcom/libbt
+
+$(call soong_config_set,brcm_libbt,bdroid_buildcfg_include_dir,$(LOCAL_PATH)/bluetooth/include)
+$(call soong_config_set,brcm_libbt,custom_bt_config,//$(LOCAL_PATH):vnd_vontarx4.txt)
 
 ## Init
 PRODUCT_PACKAGES += \

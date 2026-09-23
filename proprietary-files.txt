@@ -1,6 +1,9 @@
 ## All blobs from this list, unless pinned and noted as otherwise,
 ## are from Amlogic/ah218/ah218:11/RD2A.211001.002/user05102352:user/release-keys.
 
+## Bluetooth
+vendor/etc/bluetooth/bcm4335c0.hcd
+
 ## Display
 vendor/etc/mesondisplay.cfg
 vendor/etc/mesondisplay.cfg:recovery/root/system/etc/mesondisplay.cfg
