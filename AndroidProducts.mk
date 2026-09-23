@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ohm.mk
+    $(LOCAL_DIR)/lineage_vontarx4.mk

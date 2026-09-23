@@ -1,5 +1,5 @@
 ## Bluetooth
-bluetooth.device.default_name=ADT-4
+bluetooth.device.default_name=VontarX4
 bluetooth.profile.hfp.ag.enabled=false
 bluetooth.profile.opp.enabled=false
 bluetooth.profile.pbap.server.enabled=false

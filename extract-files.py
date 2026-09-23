@@ -31,7 +31,7 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'ohm',
+    'vontarx4',
     'amlogic',
     blob_fixups=blob_fixups,
     namespace_imports=namespace_imports,

@@ -17,14 +17,14 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_BRAND := Amlogic
-PRODUCT_DEVICE := ohm
+PRODUCT_DEVICE := vontarx4
 PRODUCT_ATV_CLIENTID_BASE := ATV00100021
 PRODUCT_GMS_CLIENTID_BASE := android-droid-tv
 PRODUCT_MANUFACTURER := Amlogic
-PRODUCT_MODEL := ADT-4
-PRODUCT_NAME := lineage_ohm
+PRODUCT_MODEL := X4
+PRODUCT_NAME := lineage_vontarx4
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="jarvis-user 14 URO4.260304.011.B1 15051976 release-keys" \
     BuildFingerprint=onn/jarvis/SNA:14/URO4.260304.011.B1/15051976:user/release-keys \
-    SystemName=ohm
+    SystemName=vontarx4

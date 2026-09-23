@@ -3,13 +3,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/amlogic/ohm
+DEVICE_PATH := device/amlogic/vontarx4
 
 ## Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 
 ## Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := ohm
+TARGET_BOOTLOADER_BOARD_NAME := vontarx4
 
 ## DTB
 TARGET_DTB_NAME := sc2_s905x4_ah212_drm
@@ -30,7 +30,7 @@ BOARD_SUPER_PARTITION_SIZE := 1887436800
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 ## Recovery
-TARGET_RECOVERY_DEVICE_DIRS += vendor/amlogic/ohm/proprietary
+TARGET_RECOVERY_DEVICE_DIRS += vendor/amlogic/vontarx4/proprietary
 
 ## Wi-Fi
 BOARD_WLAN_DEVICE := qcwcn
@@ -45,4 +45,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 include device/amlogic/ne-common/BoardConfigCommon.mk
 
 ## Include the proprietary BoardConfig makefile
-include vendor/amlogic/ohm/BoardConfigVendor.mk
+include vendor/amlogic/vontarx4/BoardConfigVendor.mk

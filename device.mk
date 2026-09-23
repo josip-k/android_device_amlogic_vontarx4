@@ -38,4 +38,4 @@ PRODUCT_SOONG_NAMESPACES += \
 $(call inherit-product, device/amlogic/ne-common/ne.mk)
 
 ## Inherit from the proprietary files makefile
-$(call inherit-product, vendor/amlogic/ohm/ohm-vendor.mk)
+$(call inherit-product, vendor/amlogic/vontarx4/vontarx4-vendor.mk)
